@@ -1,4 +1,4 @@
-import React, {useContext, useState, useRed } from 'react';
+import React, {useContext, useState, useRef } from 'react';
 import consumer from './consumer';
 import events from './events';
 import Store from '../store';
