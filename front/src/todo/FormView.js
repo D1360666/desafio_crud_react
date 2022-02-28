@@ -1,9 +1,9 @@
 import React, {useContext, useRef, useState} from "react";
 import consumer from "./consumer";
 import events from "./events";
-import Store from ".../store";
+import Store from "../store";
 
-export default ({ lstId, todo }) => {
+export default ({ listId, todo }) => {
     const formRef = useRef(null);
     const { dispatch } = useContext(Store);
     const item = todo.item[listId] ? todo.item[listId] : {};

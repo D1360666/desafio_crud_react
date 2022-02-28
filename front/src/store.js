@@ -10,7 +10,7 @@ import itemReducer from "./todo/reducer";
             elements: [],
             item: {}
         },
-        message : {ç}
+        message : {}
     };
 
     const Store = createContext(initialState);

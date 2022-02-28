@@ -1,2 +1,4 @@
-package co.com.sofka.crud.list;public class NotFoundIdException {
+package co.com.sofka.crud.list;
+
+public class NotFoundIdException {
 }

@@ -37,7 +37,7 @@ export default () => {
                 <fieldset>
                     <legend>
                         {element.name.toUpperCase()}
-                        <button on onClick={() => onDelete(element, id)}>Eliminar</button>
+                        <button onClick={() => onDelete(element)}>Eliminar</button>
                     </legend>
                     <ToDoForm listId={element.id} todo={todo} />
                     <ToDoList listId={element.id} todo={todo} />

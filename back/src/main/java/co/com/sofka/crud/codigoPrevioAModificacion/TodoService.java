@@ -1,4 +1,4 @@
-package co.com.sofka.crud;
+package co.com.sofka.crud.codigoPrevioAModificacion;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 import React, {useContext, useEffect, useState } from "react";
 import consumer from "./consumer";
 import events from "./events";
-import Store from ".../store";
+import Store from "../store";
 
 export default ({ listId, todo}) => {
     const { dispatch } = useContext(Store);
